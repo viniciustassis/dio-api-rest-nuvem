@@ -1,0 +1,11 @@
+/app/src/main/java/br/com/vta/apirest/domain/model/Account.java
+/app/src/main/java/br/com/vta/apirest/service/UserService.java
+/app/src/main/java/br/com/vta/apirest/domain/model/BaseItem.java
+/app/src/main/java/br/com/vta/apirest/domain/model/Feature.java
+/app/src/main/java/br/com/vta/apirest/service/impl/UserServiceImpl.java
+/app/src/main/java/br/com/vta/apirest/controller/exception/GlobalExceptionHandler.java
+/app/src/main/java/br/com/vta/apirest/controller/UserController.java
+/app/src/main/java/br/com/vta/apirest/domain/model/Card.java
+/app/src/main/java/br/com/vta/apirest/domain/model/User.java
+/app/src/main/java/br/com/vta/apirest/domain/repository/UserRepository.java
+/app/src/main/java/br/com/vta/apirest/ApiRestApplication.java

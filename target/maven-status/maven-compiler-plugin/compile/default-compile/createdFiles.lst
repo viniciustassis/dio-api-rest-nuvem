@@ -1,0 +1,11 @@
+br/com/vta/apirest/ApiRestApplication.class
+br/com/vta/apirest/domain/model/User.class
+br/com/vta/apirest/controller/UserController.class
+br/com/vta/apirest/domain/model/Account.class
+br/com/vta/apirest/service/UserService.class
+br/com/vta/apirest/controller/exception/GlobalExceptionHandler.class
+br/com/vta/apirest/domain/model/BaseItem.class
+br/com/vta/apirest/domain/model/Feature.class
+br/com/vta/apirest/domain/model/Card.class
+br/com/vta/apirest/domain/repository/UserRepository.class
+br/com/vta/apirest/service/impl/UserServiceImpl.class
