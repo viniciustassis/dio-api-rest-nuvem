@@ -8,14 +8,15 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-@Entity(name = "tb_user")
-public class User {
+@Entity(name = "tb_book")
+public class Book {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
-    private String name;
-    private Library library;
+    private String title;
+    private String author;
+    private boolean available;
 
 }

@@ -19,38 +19,23 @@ O Figma foi utilizado para a abstração do domínio desta API, sendo útil na a
 classDiagram
   class User {
     -String name
-    -Account account
-    -Feature[] features
-    -Card card
-    -News[] news
+    -Library library
   }
 
-  class Account {
-    -String number
-    -String agency
-    -Number balance
-    -Number limit
+  class Library {
+    -String name
+    -Book[] books
   }
 
-  class Feature {
-    -String icon
-    -String description
+  class Book {
+    -String title
+    -String author
+    -Boolean available
   }
 
-  class Card {
-    -String number
-    -Number limit
-  }
+  User "1" *-- "1" Library
+  Library "1" *-- "N" Book
 
-  class News {
-    -String icon
-    -String description
-  }
-
-  User "1" *-- "1" Account
-  User "1" *-- "N" Feature
-  User "1" *-- "1" Card
-  User "1" *-- "N" News
 ```
 
 ## IMPORTANTE
