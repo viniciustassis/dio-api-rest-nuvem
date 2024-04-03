@@ -1,5 +1,7 @@
 package br.com.vta.apirest.domain.model;
 
+import java.util.List;
+
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -16,6 +18,8 @@ public class Library {
     private Long id;
 
     private String name;
-    private Book[] books;
+
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    private List<Book> books;
 
 }

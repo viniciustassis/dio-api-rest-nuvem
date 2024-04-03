@@ -16,6 +16,8 @@ public class User {
     private Long id;
     
     private String name;
+
+    @OneToOne(cascade = CascadeType.ALL)
     private Library library;
 
 }
